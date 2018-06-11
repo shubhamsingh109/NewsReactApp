@@ -1,0 +1,24 @@
+{
+  "name": "news-server",
+  "version": "1.0.0",
+  "description": "A node.js rest api fro fetching news post",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "news",
+    "rest",
+    "api"
+  ],
+  "author": "Shubham",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
